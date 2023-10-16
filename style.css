@@ -1,0 +1,171 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+
+.prudnik {
+    color: crimson;
+}
+
+.tlo {
+    background-color: whitesmoke;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Playfair Display', serif;
+    line-height: 2;
+    color: #333;
+
+
+}
+
+.navigation {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    outline: 2px solid #e98d8d;
+    box-shadow: inset 2px 1px 20px 7px #e49797;
+    
+    border-radius: 10px;
+}
+
+.navigation__list {
+    list-style: none; 
+    padding-left: 0;
+
+}
+
+.navigation__listItem {
+    margin: 5px;
+}
+
+.navigation__link {
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: larger;
+    background-color: #d7cccc;
+    color: #222;
+    padding: 0;
+    display: block;
+    width: auto;
+}
+
+.bem {
+    border: 1px solid #dfc9c9;
+    padding: 10px;
+    padding-bottom: 50px;
+    outline: 2px solid #e98d8d;
+    box-shadow: inset 2px 1px 20px 7px #e49797;
+    border-radius: 10px;
+    margin: 50px;
+    
+}
+
+.sekcja {
+    padding: 20px;
+}
+
+.tableContainer {
+    overflow-x: auto;
+}
+
+.tableCell {
+    border: 1px solid #ccc;
+    padding: 20px;
+    vertical-align: middle;
+
+
+}
+
+.table {
+    border-collapse: collapse;
+    padding: 20px;
+    width: 100%;
+}
+
+.container {
+
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tableHeader {
+    color: rgb(193 38 180);
+    background-color: rgb(255, 239, 239);
+}
+
+.caption {
+    color: rgb(149 60 60);
+    background-color: rgb(236, 216, 216);
+    font-size: larger;
+    font-weight: bold;
+}
+
+.h3 {
+    color: rgb(149 60 60);
+    font-size: 20px;
+
+}
+
+.lista {
+
+    padding-left: 20px;
+    list-style-type: square;
+    list-style-position: inside;
+
+}
+
+
+
+.naglowek {
+    font-size: 40px;
+    font-style: italic;
+}
+
+.header {
+    text-align: center;
+    font-size: 100px;
+    
+
+}
+
+
+.link:focus {
+    outline: 2px solid cornflowerblue;
+}
+
+.link:active {
+    color: brown;
+}
+
+.img {
+
+    box-shadow: 6px 4px 23px 9px #e49797;
+    vertical-align: auto;
+    padding: 20px;
+    margin: 0px;
+
+}
+
+.dark {
+    color: #eee;
+    background-color: #222;
+}
+
+.button {
+    font-size: 20px;
+    background-color: burlywood;
+    border: none;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.aside {
+    border-top: 1px solid rgb(149 60 60);
+    border-bottom: 1px solid rgb(149 60 60);
+}

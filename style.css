@@ -61,7 +61,9 @@ html {
     box-shadow: inset 2px 1px 20px 7px #e49797;
     border-radius: 10px;
     margin: 50px;
-    
+    resize: both;
+    overflow: auto;
+
 }
 
 .sekcja {
@@ -148,6 +150,8 @@ html {
     vertical-align: auto;
     padding: 20px;
     margin: 0px;
+
+    
 
 }
 

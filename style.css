@@ -11,7 +11,7 @@ html {
     color: crimson;
 }
 
-.tlo {
+.body {
     background-color: whitesmoke;
     font-family: 'Bricolage Grotesque', sans-serif;
     font-family: 'Playfair Display', serif;
@@ -28,12 +28,12 @@ html {
     text-align: center;
     outline: 2px solid #e98d8d;
     box-shadow: inset 2px 1px 20px 7px #e49797;
-    
+
     border-radius: 10px;
 }
 
 .navigation__list {
-    list-style: none; 
+    list-style: none;
     padding-left: 0;
 
 }
@@ -131,7 +131,7 @@ html {
 .header {
     text-align: center;
     font-size: 100px;
-    
+
 
 }
 
@@ -151,8 +151,14 @@ html {
     padding: 20px;
     margin: 0px;
 
-    
 
+
+}
+
+@media (max-width:767px) {
+    .img {
+        max-width: 100%;
+    }
 }
 
 .dark {

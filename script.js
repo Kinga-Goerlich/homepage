@@ -1,14 +1,17 @@
-let button = document.querySelector(".button");
-let tlo = document.querySelector(".tlo");
-let themeName = document.querySelector(".themeName");
+{
+    const toggle = () => {
+        const body = document.querySelector;
+        const themeName = document.querySelector(".themeName");
 
+        body.classList.themeName("dark");
+        themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
+    };
 
-button.addEventListener("click", () => {
-    tlo.classList.toggle("dark");
+    const init = () => {
+        const button = document.querySelector(".button");
+        button.addEventListener("click", toggle);
 
-    if (tlo.classList.contains("dark")) {
-        themeName.innerText = "jasny";
-    } else {
-        themeName.innerText = "ciemny";
-    }
-});
+    };
+
+    init();
+}
